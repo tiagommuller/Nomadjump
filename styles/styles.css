@@ -1,1 +1,68 @@
+/* GLOBAL FONT */
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #f7f7f7;
+    color: #102E4A;
+}
+
+/* BRAND COLORS */
+.color-primary { color: #E8761F; }
+.bg-primary { background-color: #E8761F; }
+.bg-secondary { background-color: #102E4A; }
+.text-darkblue { color: #102E4A; }
+
+/* NAVIGATION */
+.nav-link {
+    color: #d1d5db; /* gray-300 */
+    padding: 4px 0;
+    transition: 0.15s;
+}
+.nav-link:hover {
+    color: white;
+}
+.nav-link.active {
+    color: #E8761F;
+    font-weight: 700;
+    border-bottom: 2px solid #E8761F;
+}
+
+/* PRODUCT CARDS */
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 
+                0 10px 10px -5px rgba(0,0,0,0.04);
+}
+
+/* HERO BACKGROUND */
+.hero {
+    background-image: url('https://images.unsplash.com/photo-1547483015-f5b9d31d454a?q=80&w=2670&auto=format&fit=crop');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* SPACING FOR SECTIONS */
+section {
+    padding: 4rem 1rem;
+    scroll-margin-top: 6rem;
+}
+
+/* CTA BUTTON */
+.cta-button {
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    font-size: 1.25rem;
+    background-color: #E8761F;
+    color: #102E4A;
+    border-radius: 9999px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.cta-button:hover {
+    background-color: #cf5f12;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.25);
+}
 
