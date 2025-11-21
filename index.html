@@ -1,89 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nomad Jump – Jump Rope. Travel. Freedom.</title>
-    <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nomad Jump – Jump Rope, Travel & Fitness Lifestyle</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <header class="hero">
-        <nav class="navbar">
-            <img src="assets/logo.png" alt="Nomad Jump Logo" class="logo" />
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#community">Community</a></li>
-                <li><a href="#travel">Travel</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
+  <!-- HEADER -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <div class="logo-block">
+        <img src="assets/logos/nomadjump-logo.png" alt="Nomad Jump Logo" class="logo-img" />
+        <h1 class="logo-title">Nomad Jump</h1>
+      </div>
+      <nav class="nav-links">
+        <a href="#about">Sobre</a>
+        <a href="#ropes">Cordas</a>
+        <a href="#mission">Missão</a>
+        <a href="#contact">Contato</a>
+      </nav>
+    </div>
+  </header>
 
-        <div class="hero-content">
-            <h1>Jump Rope. Travel. Freedom.</h1>
-            <p>Your journey to fitness and adventure starts here.</p>
-            <a href="#community" class="btn-primary">Join the Movement</a>
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-content">
+      <img src="assets/logos/nomadjump-logo.png" alt="Nomad Jump" class="hero-logo" />
+      <h2 class="hero-title">Treine em qualquer lugar. Viva em movimento.</h2>
+      <p class="hero-subtitle">Jump Rope • Viagem • Estilo de Vida</p>
+      <a href="#ropes" class="btn-primary">Comprar Cordas</a>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section">
+    <div class="container two-col">
+      <div>
+        <h3 class="section-title">O que é a Nomad Jump?</h3>
+        <p>
+          A Nomad Jump nasceu da paixão por movimento, viagens e estilo de vida saudável.
+          Um projeto global que une salto de corda, disciplina e comunidade — pensado especialmente para quem quer treinar em qualquer lugar do mundo.
+        </p>
+      </div>
+      <div class="card-img"></div>
+    </div>
+  </section>
+
+  <!-- ROPES / SHOP SECTION -->
+  <section id="ropes" class="section dark">
+    <div class="container">
+      <h3 class="section-title light">As Cordas da Nomad Jump</h3>
+      <div class="products">
+
+        <div class="product-card">
+          <h4>Speed Rope</h4>
+          <p>Leve, rápida e perfeita para treinos HIIT.</p>
+          <a class="btn-secondary" href="#">Comprar</a>
         </div>
-    </header>
 
-    <section id="about" class="section about">
-        <h2>What is Nomad Jump?</h2>
-        <p>Nomad Jump is a movement for people who love staying fit, jumping rope, and exploring the world at the same time. Fitness meets lifestyle, community, and adventure.</p>
-
-        <div class="features">
-            <div class="feature-card">
-                <h3>Fitness Anywhere</h3>
-                <p>Stay in shape using only a rope — the most portable workout ever.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Community Energy</h3>
-                <p>Travel the world while connecting with incredible people who share the same vibe.</p>
-            </div>
-            <div class="feature-card">
-                <h3>Pure Freedom</h3>
-                <p>Live a lifestyle where movement, exploration, and health go hand in hand.</p>
-            </div>
+        <div class="product-card">
+          <h4>Heavy Rope</h4>
+          <p>Para força, resistência e explosão muscular.</p>
+          <a class="btn-secondary" href="#">Comprar</a>
         </div>
-    </section>
 
-    <section id="community" class="section community">
-        <h2>Our Community</h2>
-        <p>We’re building local and global jump rope meet-ups. Budapest → Everywhere.</p>
-
-        <div class="community-grid">
-            <div class="community-card">
-                <h3>Weekly Meet-ups</h3>
-                <p>Join our training sessions in Budapest and connect with motivated people.</p>
-            </div>
-            <div class="community-card">
-                <h3>Travel Events</h3>
-                <p>Experience fitness trips, retreats, and unforgettable journeys.</p>
-            </div>
-            <div class="community-card">
-                <h3>Online Challenges</h3>
-                <p>Push your limits, unlock new tricks, and level up with us.</p>
-            </div>
+        <div class="product-card">
+          <h4>Travel Rope</h4>
+          <p>Compacta, durável e ideal para levar pelo mundo.</p>
+          <a class="btn-secondary" href="#">Comprar</a>
         </div>
-    </section>
 
-    <section id="travel" class="section travel">
-        <h2>Travel + Jump Rope</h2>
-        <p>Make every destination a training ground. Discover routines, spots, and jump-friendly locations worldwide.</p>
-        <a href="#contact" class="btn-secondary">Become a Nomad Jumper</a>
-    </section>
+      </div>
+    </div>
+  </section>
 
-    <section id="contact" class="section contact">
-        <h2>Contact</h2>
-        <p>Want to collaborate or join our events? Reach out!</p>
-        <form>
-            <input type="text" placeholder="Your Name" required />
-            <input type="email" placeholder="Your Email" required />
-            <textarea placeholder="Your Message" required></textarea>
-            <button type="submit" class="btn-primary">Send Message</button>
-        </form>
-    </section>
+  <!-- MISSION SECTION -->
+  <section id="mission" class="section">
+    <div class="container">
+      <h3 class="section-title">Nossa Missão</h3>
+      <p>
+        Criar uma comunidade global de pessoas que viajam, treinam e evoluem juntas.
+        Acreditamos que disciplina, energia e boas conexões podem transformar vidas.
+      </p>
+    </div>
+  </section>
 
-    <footer class="footer">
-        <p>© 2025 Nomad Jump — Jump Rope. Travel. Freedom.</p>
-    </footer>
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h3 class="section-title">Entre em Contato</h3>
+      <p>Email: <strong>nomadjump@gmail.com</strong></p>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 Nomad Jump · Built for athletes who travel</p>
+    </div>
+  </footer>
 </body>
 </html>
